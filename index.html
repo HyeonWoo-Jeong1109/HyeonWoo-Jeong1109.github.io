@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>정현우 포트폴리오</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-flex">
+      <h1 class="logo">Jeong Hyeonwoo</h1>
+      <nav class="nav">
+        <a href="#intro">Intro</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="intro" class="hero">
+    <div class="hero-inner">
+      <img src="images/profile.jpg" alt="정현우 프로필 사진" class="profile-img" />
+      <div class="profile-info">
+        <h1 class="profile-name">정현우 <span class="eng-name">| JEONG HYEONWOO</span></h1>
+        <ul class="contact-list">
+          <li><i class="fas fa-envelope"></i> haenu1109@gmail.com</li>
+          <li><i class="fas fa-phone"></i> 010-4825-6389</li>
+          <li><i class="fab fa-github"></i> <a href="https://github.com/HyeonWoo-Jeong1109" target="_blank">GitHub 바로가기</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">소개</h2>
+      <div class="about-content">
+        <p>
+          저는 어떤 일이든 끝까지 해내는 <strong>끈기</strong>와 맡은 바를 책임감 있게 수행하는 <strong>성실함</strong>을 가장 큰 장점으로 생각합니다.<br />
+          에러 하나를 해결하는 데 몇 시간을 쏟아부으며 문제 해결의 즐거움을 배웠고,<br />
+          이후 웹 프론트와 백엔드 기술을 넘나들며 스스로 꾸준히 성장해왔습니다.<br />
+          다양한 팀 프로젝트를 경험하며 협업 능력 또한 다져왔습니다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">기술 스택</h2>
+      <div class="skill-category">
+        <h3 class="skill-heading">Frontend</h3>
+        <div class="skill-grid">
+          <div class="skill-box">HTML/CSS</div>
+          <div class="skill-box">JavaScript</div>
+          <div class="skill-box">React</div>
+          <div class="skill-box">Vue</div>
+          <div class="skill-box">Nexacro</div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-heading">Backend</h3>
+        <div class="skill-grid">
+          <div class="skill-box">Java</div>
+          <div class="skill-box">Jsp</div>
+          <div class="skill-box">SpringBoot</div>
+          <div class="skill-box">MyBatis</div>
+          <div class="skill-box">JPA</div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 class="skill-heading">Database</h3>
+        <div class="skill-grid">
+          <div class="skill-box">Oracle</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">프로젝트</h2>
+
+      <div class="project-card">
+        <div class="project-top">
+          <h3 class="project-title">Vue HR Project</h3>
+        </div>
+        <div class="project-content">
+          <a href="pdfs/vue-hr-project.pdf" target="_blank">
+            <img src="images/Vue.png" alt="Vue HR Project 이미지" class="project-img" />
+          </a>
+          <div class="project-info">
+            <p class="project-sub">팀 프로젝트</p>
+            <h4 class="project-subtitle">What I did</h4>
+            <ul class="project-task">
+              <li>경조비 관리 페이지 및 기능 구현</li>
+              <li>교육 관리 페이지 및 기능 구현</li>
+              <li>인사 고과 페이지 및 기능 구현</li>
+            </ul>
+            <h4 class="project-subtitle">Stack</h4>
+            <p class="project-stack">Vue, Nuxt, SpringBoot, JPA, MyBatis, Oracle</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <h3 class="project-title">쇼핑몰 Project</h3>
+        </div>
+        <div class="project-content">
+          <a href="pdfs/shopping-project.pdf" target="_blank">
+            <img src="images/Shopping.png" alt="쇼핑몰 프로젝트 이미지" class="project-img" />
+          </a>
+          <div class="project-info">
+            <p class="project-sub">개인 프로젝트</p>
+            <h4 class="project-subtitle">What I did</h4>
+            <ul class="project-task">
+              <li>상품검색 및 자동완성 기능</li>
+              <li>로그인/ 로그아웃 기능</li>
+              <li>회원가입 기능</li>
+            </ul>
+            <h4 class="project-subtitle">Stack</h4>
+            <p class="project-stack">HTML/CSS, JavaScript, Java</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">Jeong Hyeonwoo © 2025</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
